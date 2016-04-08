@@ -1,0 +1,103 @@
+.container {
+	width: 700px;
+	margin: 0 auto;
+}
+#navi {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#navi li {
+	margin: 4px;
+	float: left;
+	padding-left: 20px;
+	padding-right: 10px; 
+	border: 1px solid #000;
+	border-right-style: none;
+	border-top-style: none;
+	border-bottom-style: none;
+	height: 13px;
+	position: relative;
+	top: 8px;
+	font-weight: bold;
+	}
+#navi li:first-child {
+	border-style: none; 
+}
+.nave	{
+	width: 38%;
+	height: 40px;
+	margin-top: 20px;
+	border: 1px solid #000;
+	padding-left: 100px;
+	padding-right: 100px;
+	border-left-style: none;
+	border-right-style: none;
+	}
+#abrir {
+	text-decoration: none;
+	color: #000;
+	position: relative;
+	top: -2px;
+}
+#todas {
+	width:670px;
+	height: 400px;
+}
+#foto {
+	margin-top: 30px;
+		}
+#raya {
+	width: 5%;
+	border: 1px solid #000;
+	margin-top: 20px;
+}
+#laboratoria {
+	width: 30%;
+	font-size: 20px;
+}
+h3{ 
+margin-left: 100px;
+margin-top: 50px;
+ }
+ .linea {
+ 	border:2px solid black;
+ 	margin-top: 20px;
+ 	width: 75px;
+ }
+.foto {
+	width: 200px;
+	height: 200px;
+	position: relative;
+	display: inline-block;
+	left: 50px;
+	margin-right: 20px;
+	}
+#nc {
+	width: 69%;
+}
+#coders { 
+	width: 200px;
+	height: 200px;
+		 }
+#nombre {
+	position: relative;
+	top: 215px;
+	left: 35px;
+	color: #01DFD7;
+}
+#nombre1{
+		position: relative;
+		top: 215px;
+		left: 50px;
+		color: #01DFD7;
+	}
+#hijo {
+	position: absolute;
+	top: 50px;
+	left: 1px;
+	width: 200px;
+	height: 200px;
+	background-color: black;
+	opacity: 0.4;
+}
