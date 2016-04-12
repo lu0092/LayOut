@@ -1,3 +1,5 @@
+/**{outline: 1px solid rgba(255,0,0,0.4);} */
+
 .container {
 	width: 700px;
 	margin: 0 auto;
@@ -60,7 +62,7 @@ h3{
 margin-left: 100px;
 margin-top: 50px;
  }
- .linea {
+ #linea {
  	border:2px solid black;
  	margin-top: 20px;
  	width: 75px;
@@ -72,6 +74,7 @@ margin-top: 50px;
 	display: inline-block;
 	left: 50px;
 	margin-right: 20px;
+	margin-top: 20px;
 	}
 #nc {
 	width: 69%;
@@ -79,25 +82,75 @@ margin-top: 50px;
 #coders { 
 	width: 200px;
 	height: 200px;
+	margin-top: 0px;
 		 }
 #nombre {
-	position: relative;
-	top: 215px;
-	left: 35px;
-	color: #01DFD7;
+	position: absolute;
+	right: 0;
+	bottom: -16px;
+	color: #FFF;
 }
-#nombre1{
-		position: relative;
-		top: 215px;
-		left: 50px;
-		color: #01DFD7;
-	}
 #hijo {
 	position: absolute;
-	top: 50px;
+	top: 0px;
 	left: 1px;
 	width: 200px;
 	height: 200px;
 	background-color: black;
 	opacity: 0.4;
+}
+.peque {
+	height: 150px;
+	width: 150px;
+	border-radius: 100%;
+	margin-top: 30px;
+}
+#redondo {
+	margin-top: 30px;
+	border: 2px solid #585858;
+	width: 55%;
+}
+#descrip {
+	text-align: center;
+	width: 80%;
+	font-size: 20px;
+}
+h2 {
+	text-align: left;
+	margin-left: 20px;
+	clear: left;
+	}
+.hab {
+	background-color: #848484;
+	margin-top: 20px;
+	margin-left: 40px;
+	text-align: left;
+	padding: 20px;
+	display: block;
+	float: left;
+	color: white;}
+.peq {
+	width: 20%;
+	clear:left;
+	margin-bottom: 20px;
+	
+}
+.med { 
+	width: 40%;
+	}
+.lar {
+	width: 60%;
+}
+.porta {
+	width: 150px;
+	height: 150px;
+}
+#por {
+	list-style-type: none;
+	float: left;
+	margin-top: 20px;
+	margin-right: 20px;
+}
+.ulti {
+	clear: left;
 }
